@@ -14,6 +14,10 @@ def get_response(user_input):
         return "I am a simple chatbot"
     elif user_input=="bye":
         return "Goodbye! Have a nice day"
+    elif user_input=="who created python":
+        return "python was created by Guido van Rosum"
+    elif user_input=="thank you":
+        return "you're welcome!"
     else:
         return "Sorry,I dont understand that.please try another question"
 print("chatbot:Hello I am a simple chatbot.")
